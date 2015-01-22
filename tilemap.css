@@ -1,0 +1,147 @@
+body{
+	width: 200%;
+	background: black;
+	overflow-x: hidden;
+}
+
+table{	
+	border-spacing: 3px;
+	/*background-color: #3A3A3A;*/
+}
+
+table td, table tr{
+	overflow: hidden;
+	width: 70px;
+	height: 70px;
+}
+
+.terrain{
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.terrain:hover{
+	opacity: .75;
+	background-color: white !important;
+}
+
+.terrain.empty{
+	background: #121212;
+}
+
+.terrain.road{
+	background-image: url('./img/road.png');
+}
+
+.terrain.library{
+	background-image: url('./img/library.png');
+}
+
+.terrain.revolver{
+	background-image: url('./img/revolver.png');
+}
+
+.terrain.forest{
+	background-image: url('./img/forest.png');
+}
+
+.terrain.house{
+	background-image: url('./img/house.png');
+}
+
+.terrain.store{
+	background-image: url('./img/store.png');
+}
+
+.terrain.wall{
+	background-image: url('./img/wall.png');
+}
+
+.terrain.fence{
+	background-image: url('./img/fence.png');
+}
+
+.terrain.barbed-wire{
+	background-image: url('./img/barbedwire.png');
+}
+
+.terrain.forbidden{
+	background-image: url('./img/forbidden.png');
+}
+
+.terrain.dirt{
+	background-image: url('./img/dirt.png');
+}
+
+.terrain.water{
+	background-image: url('./img/water.png');
+}
+
+
+#debug{
+	font-family: arial;
+	color: green;
+}
+
+#ego{
+	width: 68px;
+	height: 67px;
+	background: url('./img/ego.png') center no-repeat;
+}
+
+.person{
+	width: 68px;
+	height: 67px;
+	background: url('./img/person.png') center no-repeat;
+}
+
+.path{
+	background-color: #89B700 !important;
+}
+
+.destination{
+	background-image: url('./img/destination.png') !important;
+}
+
+.up, .down, .left, .right, .upright, .downright, .downleft, .upleft{
+	width: 61px;
+	height: 61px;
+}
+
+.up{	
+	background-image: url('./img/up.png') !important;
+}
+
+.down{	
+	background-image: url('./img/down.png') !important;
+}
+
+.left{	
+	background-image: url('./img/left.png') !important;
+}
+
+.right{	
+	background-image: url('./img/right.png') !important;
+}
+
+.upright{	
+	background-image: url('./img/upright.png') !important;
+}
+
+.downright{	
+	background-image: url('./img/downright.png') !important;
+}
+
+.downleft{	
+	background-image: url('./img/downleft.png') !important;
+}
+
+.upleft{	
+	background-image: url('./img/upleft.png') !important;
+}
+
+.stopped{	
+	background-image: url('./img/stopped.png') !important;
+}
